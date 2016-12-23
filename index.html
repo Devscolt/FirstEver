@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Deployme</title>
+  
+      <link rel="stylesheet" type="text/css" href="assets/stylesheet/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/stylesheet/left-navbar.css">
+ 
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+ <div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3 col-lg-2">
+            <nav class="navbar navbar-default navbar-fixed-side">
+                <!-- normal collapsible navbar markup -->
+
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                            aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+                        <a class="navbar-brand" href="#">Project</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a [routerLink]="['Users']">Users</a></li>
+                            <li><a [routerLink]="['/materials']">Materials</a></li>
+                        </ul>
+                    </div>
+
+
+                    <!-- /.navbar-collapse -->
+                </div>
+            </nav>
+        </div>
+        <div class="col-sm-9 col-lg-10">
+           
+<app-root> loading... </app-root>
+            <!-- your page content -->
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
+</html>
